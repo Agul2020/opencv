@@ -5,7 +5,7 @@
         "-g",
         "${file}",
         "-o",
-        "${fileBasenameNoExtension}.exe",
+        "${fileDirname}/run/${fileBasenameNoExtension}.exe",
         "-IC:/opencv/mingw_build/install/include",
         "-IC:/opencv/mingw_build/install/include/opencv2",
         "-LC:/opencv/mingw_build/install/x64/mingw/bin",
