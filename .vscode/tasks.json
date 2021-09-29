@@ -3,9 +3,11 @@
     "command": "g++",
     "args": [
         "-g",
+        "-fexec-charset=GBK",
+        "-finput-charset=UTF-8",
         "${file}",
         "-o",
-        "${fileDirname}/run/${fileBasenameNoExtension}.exe",
+        "${fileDirname}/../run/${fileBasenameNoExtension}.exe",
         "-IC:/opencv/mingw_build/install/include",
         "-IC:/opencv/mingw_build/install/include/opencv2",
         "-LC:/opencv/mingw_build/install/x64/mingw/bin",
