@@ -6,6 +6,10 @@
 
 - [Visual Studio opencv 环境安装](https://blog.csdn.net/ivan_9/article/details/112984941) ---转载自[ivan_9的博客](https://blog.csdn.net/ivan_9)
 
+## 测试环境
+- 编译器： TDM-GCC 10.3.0
+- 软件版本 OpenCV 4.5.3
+
 ## 读入、显示和存储图像
 - ### 输入文件名时采用的是相对路径，要注意相关用法
 
